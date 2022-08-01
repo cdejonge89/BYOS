@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px solid red; */
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    height: 100px;
+    background-color: #9C640C;
+    display: flex;
+    align-items: center;
+    color: blanchedalmond;
+    justify-content: center;
+}
+    
+.col {
+    text-align: center;
+    padding: 10px;
+    margin: 5%
+}
+
+.col img {
+    height: 70px;
+    width: 70px;
+}
+
+.col h2 {
+    font-style: italic;
+}
+
+#nav {
+    background-color: #FDFEFE;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+#nav a {
+    color: #E59866;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover {
+    background-color: #9C640C;
+    color: bisque;
+    
+}
+
+a:active {
+    color: rgb(216, 76, 25);
+}  
+
+#info {
+    color: black;
+    display: flex;
+    height: 300px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+}
+
+.body img {
+    border: 2px solid #9C640C;
+    box-shadow: 10px 10px 5px #9C640C;
+    transition: 600ms;
+}
+
+.body {
+    background-image: url(https://cdn11.bigcommerce.com/s-own6dl/images/stencil/2048x2048/products/3672/7884/IMG_6402_edited-1__90798.1500671467.jpg?c=2);
+    width: 100%;
+    height: 400px;
+    /* border: 5px solid red; */
+}
+
+.lang {
+    /* get images in evenly spaced columns */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 0 4px;
+    background: rgba(255, 255, 255, .5);
+    margin-left: 30px;
+    width: 500px;
+    /* overflow-x:hidden; */
+    overflow-y: scroll; 
+    padding: 15px;
+    border: 2px solid #9C640C;
+    box-shadow: 10px 10px 5px #9C640C;
+}
+
+.lang img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.lang img {
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form {
+    text-align: center;
+    background-color: bisque;
+    margin-bottom: 50px;
+}
+
+
